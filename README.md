@@ -1,7 +1,5 @@
 # Vision-Language-Agent-for-Context-Aware-Object-Selection
 
-# Vision-Language-Agent-for-Context-Aware-Object-Selection
-
 ## 📌 Overview
 This project implements a **Vision–Language Agent** that combines **computer vision** and **natural language understanding** to identify and select objects from images using human-like textual commands.  
 A **custom-trained YOLO object detection model** is integrated with a **Large Language Model (FLAN-T5)** to enable **intent-aware, affordance-based, and spatially grounded object reasoning**.
