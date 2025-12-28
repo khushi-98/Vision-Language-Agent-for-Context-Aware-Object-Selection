@@ -53,6 +53,7 @@ To train the YOLO model on custom data, run:
 
 ```bash
 python finalcodetesting.py
+```
 
 # Vision–Language Agent for Context-Aware Object Selection
 
@@ -62,7 +63,7 @@ Install the required dependencies using:
 
 ```bash
 pip install ultralytics transformers sentence-transformers opencv-python pillow matplotlib
-
+```
 
 ## 🚀 Usage
 
