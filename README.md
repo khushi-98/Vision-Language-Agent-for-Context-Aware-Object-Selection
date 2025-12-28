@@ -54,3 +54,44 @@ To train the YOLO model on custom data, run:
 ```bash
 python finalcodetesting.py
 
+# Vision–Language Agent for Context-Aware Object Selection
+
+## ▶️ Installation
+
+Install the required dependencies using:
+
+```bash
+pip install ultralytics transformers sentence-transformers opencv-python pillow matplotlib
+
+
+## 🚀 Usage
+
+1. Upload the trained YOLO `.pt` model.  
+2. Upload an image containing detectable objects.  
+3. Enter natural language commands such as:  
+   - `I want to write notes`  
+   - `Give me something to drink`  
+   - `Select the object left of the bottle`  
+4. Type `exit` to stop the agent.  
+
+## 📊 Output
+
+- Bounding boxes for all detected objects  
+- Highlighted selected object  
+- Context-aware natural language response  
+
+## 🎯 Applications
+
+- Human–Robot Interaction (HRI)  
+- Smart assistants  
+- Assistive AI systems  
+- Robotic pick-and-place  
+- Intelligent vision-based interfaces  
+
+## 🔮 Future Enhancements
+
+- Voice-based interaction  
+- Real-time camera input  
+- Robotic arm integration  
+- Multi-object reasoning  
+- Improved affordance learning
